@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "tags": ["crafting_table"],
+    "ingredients": [
+        "wooltool:needle",
+        "wooltool:spool_thread"
+    ],
+    "result": {
+        "id": "wooltool:sewing_kit",
+        "count": 1
+    }
+}

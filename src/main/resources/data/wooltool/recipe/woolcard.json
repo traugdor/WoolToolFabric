@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "tags": ["crafting_table"],
+    "pattern": [
+        "!!!",
+        " _ ",
+        " / "
+    ],
+    "key": {
+        "!": "wooltool:needle",
+        "_": "#minecraft:wooden_slabs",
+        "/": "minecraft:stick"
+    },
+    "result": {
+        "id": "wooltool:woolcard",
+        "count": 1
+    }
+}

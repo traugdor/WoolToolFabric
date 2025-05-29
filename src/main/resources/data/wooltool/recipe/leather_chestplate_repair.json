@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+      "minecraft:leather_chestplate",
+      "minecraft:leather",
+      "wooltool:sewing_kit"
+    ],
+    "result": {
+      "id": "minecraft:leather_chestplate",
+      "count": 1
+    }
+}

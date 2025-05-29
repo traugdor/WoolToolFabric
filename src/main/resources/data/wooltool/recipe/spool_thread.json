@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "tags": ["crafting_table"],
+    "ingredients": [
+        "wooltool:woolcard",
+        "#minecraft:wool"
+    ],
+    "result": {
+        "id": "wooltool:spool_thread",
+        "count": 2
+    }
+}
