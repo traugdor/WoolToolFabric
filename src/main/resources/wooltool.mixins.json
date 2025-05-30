@@ -3,7 +3,6 @@
 	"package": "com.trauger.joel.wooltool.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin",
 		"CraftingScreenHandlerMixin"
 	],
 	"injectors": {

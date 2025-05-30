@@ -1,6 +1,5 @@
 package com.trauger.joel.wooltool.mixin;
 
-
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
@@ -43,7 +42,7 @@ public class CraftingScreenHandlerMixin {
         boolean hasSewingKit = false;
         for (int i = 1; i <= 9; i++) {
             ItemStack stack = handler.getSlot(i).getStack();
-            if (stack.getItem().toString().contains("sewing_kit")) {
+            if (stack.getItem() == com.trauger.joel.wooltool.ModItems.SEWING_KIT) {
                 hasSewingKit = true;
                 break;
             }

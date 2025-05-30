@@ -1,5 +1,6 @@
 package com.trauger.joel.wooltool.item;
 
+import com.trauger.joel.wooltool.ModItems;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -38,9 +39,9 @@ public class SewingKitItem extends Item {
         ItemStack remainder = stack.copy();
         remainder.setDamage(remainder.getDamage() + 1);
         
-        // If the sewing kit would break, return empty
+        // If the sewing kit would break, return a sewing needle
         if (remainder.getDamage() >= remainder.getMaxDamage()) {
-            return ItemStack.EMPTY;
+            return new ItemStack(ModItems.NEEDLE, 1);
         }
         
         return remainder;
