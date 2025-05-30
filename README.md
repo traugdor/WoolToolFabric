@@ -1,6 +1,6 @@
 # WoolTool 🧶
 
-<img src="src/main/resources/assets/wooltool/icon.png" alt="WoolTool Icon" width="128" height="128">
+<img src="src/main/resources/assets/wooltool/bigIcon.png" alt="WoolTool Icon" width="200" height="200">
 
 [![Fabric API](https://i.imgur.com/Ol1Tcf8.png)](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
 
